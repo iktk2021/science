@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="bg-primary text-center">
+        <h1>States Of Matter</h1>
+        <h2> By Ishaan Konar</h2>
+    </div>
+    <nav class="nav nav-pills bg-dark " >
+        <a class="nav-link" href='{{url_for("solids")}}'>Solids</a>
+        <a class="nav-link" href="{{url_for('liquids')}}">Liquids</a>
+        <a class="nav-link" href="{{url_for('gases')}}">Gases</a>
+        <a class="nav-link" href="{{url_for('phases')}}">Phases of changes</a>
+        <a class="nav-link" href="{{url_for('credit')}}">Credit</a>
+        <a class="nav-link" href="{{url_for('index')}}">Home Page</a> 
+    </nav>
+    <h2>Sublimation is a phase change that turns from solid to a gas without turning into a liquid. This change adds energy quickly. The particles go from particles that start from vibrating in place and are ordered in a structure called a crystal lattice to slide past one another at a medium amount of energy into particles that are moving faster and spread apart. </h2>
+    <img src="/static/sublimation.jpg">
+    <a class="nav-link" href="{{url_for('melting')}}">Melting</a>
+    <a class="nav-link" href="{{url_for('freezing')}}">Freezing</a>
+    <a class="nav-link" href="{{url_for('evaporating')}}">Evaporating</a>
+    <a class="nav-link" href="{{url_for('boiling')}}">Boiling</a>
+    <a class="nav-link" href="{{url_for('condensation')}}">Condensation</a>
+    <a class="nav-link" href="{{url_for('sublimation')}}">Sublimation</a>
+    <a class="nav-link" href="{{url_for('desposition')}}">Desposition</a>
+    
+  
+</body>
